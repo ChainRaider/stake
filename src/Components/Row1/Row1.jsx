@@ -180,21 +180,21 @@ function Row1() {
           <div class="row">
             <div class="col-12 pb-3 col-sm-6 col-md-4">
               <div className="Row1_innerDiv">
-                <img src="/assets/img/stake.png" />
+                <img src="assets/img/stake.png" />
                 <h4>$CHR Staked</h4>
                 <h6>{stakedmoney}</h6>
               </div>
             </div>
             <div class="col-12 pb-3 col-sm-6 col-md-4">
               <div className="Row1_innerDiv">
-                <img src="/assets/img/wallet.png" />
+                <img src="assets/img/wallet.png" />
                 <h4>$CHR Wallet</h4>
                 <h6>{walletmoney}</h6>
               </div>
             </div>
             <div class="col-12 pb-3 col-sm-6 col-md-4">
               <div className="Row1_innerDiv">
-                <img src="/assets/img/dist.png" />
+                <img src="assets/img/dist.png" />
                 <h4>Total BNB Distribution</h4>
                 <h6>{totalbnbDistributed}</h6>
               </div>

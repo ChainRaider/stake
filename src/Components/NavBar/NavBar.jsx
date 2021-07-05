@@ -116,7 +116,7 @@ function NavBar() {
     return (
         <>
            <div className="Navbar_Main">
-            <img src="/assets/img/chainraidertitle.png" />
+            <img src="assets/img/chainraidertitle.png" />
             <div class="wallet-wrap">
               <span className=" wallet0">Wallet: </span>
               <span className="wallet text-truncate">{account}</span>

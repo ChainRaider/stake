@@ -1,5 +1,5 @@
 {
-  "name": "NIRON",
+  "name": "ChainRaider",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,7 @@
     "web-vitals": "^1.1.2",
     "web3": "^1.3.6"
   },
+  "homepage": "https://ChainRaider.github.io/stake/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

@@ -1,0 +1,159 @@
+/* .appMain{
+    display: flex !important;
+    width: 100vw;
+    flex: 10;
+}
+.appInner1{
+    display: flex;
+    flex: 3;
+}
+.appInner2{
+    display: flex;
+    flex: 9;
+}
+.appInner1_1{
+width: 100%;
+} */
+.fullWidth{
+    width: 100vw !important;
+    background-color: black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+margin: 0;
+padding: 0;
+}
+.bodyy{
+height: 100vh;
+overflow-x: hidden !important;
+overflow:scroll;
+scrollbar-color: black!important;
+}
+
+
+
+    @media(max-width:770px){
+        .sidebar{
+            visibility: hidden;
+            display: none;
+        }
+    
+    }
+
+.bodyy {
+    background: linear-gradient( 
+        45deg
+         , #011e4a, #00bbf7);
+            background-image: url(assets/logo-big.svg), linear-gradient( 
+        45deg
+         , #011e4a, #00bbf7);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+}
+
+.bodyy .Navbar_Main,
+.bodyy .Row1_Main,
+.bodyy .Row2_Main {
+    background: transparent;
+}
+
+.bodyy .Row1_Main,
+.bodyy .Row2_Main {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyy .container {
+    max-width: 800px;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.bodyy .container h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.bodyy .Row1_innerDiv,
+.bodyy .Row2_innerDiv {
+    background: transparent;
+    border: 0;
+    text-align: center;
+    margin: 0;
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bodyy .Row1_innerDiv img,
+.bodyy .Row2_innerDiv img {
+    max-width: 60px;
+}
+
+.bodyy .col-12.pb-3.col-sm-6.col-md-4,
+.bodyy .col-12.pb-3.col-sm-6.col-md-4 {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.Navbar_Main img {
+    max-width: 300px;
+}
+
+span.wallet0 {
+    left: auto;
+}
+
+.bodyy h6 {
+    word-break: break-all;
+    max-width: 210px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.bodyy .inputComp_Main, .bodyy .inputComp_Main_container {
+    background: transparent;
+    background-color: transparent;
+    border: 0;
+}
+
+.withdraw_Class>button, button.btn {
+    color: #021d49!important;
+    background-color: white !important;
+    font-weight: 700 !important;
+    border: 0;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.bodyy .input_div {
+    margin: 20px 0;
+}
+
+.bodyy .input_div input {
+    color: #011e4a;
+    outline: 0;
+    border: 0;
+}
+
+#root > div > div > div > div:nth-child(2) > div {
+    margin-bottom: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+#root > div > div > div > div:nth-child(4) > div {
+    border-radius: 0 0 15px 15px;
+}
+
+.Row2_Main .container {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.withdraw_Class>button.btn {
+    color: #021d49!important;
+    background-color: white !important;
+    margin-right: 0 !important;
+}

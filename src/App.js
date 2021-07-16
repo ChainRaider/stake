@@ -14,9 +14,11 @@ function App() {
         <div class="row p-0 m-0">
           <div class="col-12 bodyy col-md-12">
             <NavBar />
-            <Row1 />
-            <Row2 />
-            <InputComp />
+            <div class="content-body-wrap">
+              <Row1 />
+              <Row2 />
+              <InputComp />
+            </div>
           </div>
         </div>
       </div>

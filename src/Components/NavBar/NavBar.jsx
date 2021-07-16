@@ -116,7 +116,16 @@ function NavBar() {
     return (
         <>
            <div className="Navbar_Main">
-            <img src="assets/img/chainraidertitle.png" />
+            <img src="assets/img/chainraidersmallnew.png" />
+            <ul id="main-menu">
+              <li><a href="https://chainraider.org/#about">Features</a></li>
+              <li><a href="https://chainraider.org/stake">Stake $CR</a></li>
+              <li><a href="https://chainraider.org/#whitepaper">Whitepaper</a></li>
+              <li><a href="https://chainraider.org/#roadmap">Roadmap</a></li>
+              <li><a href="https://chainraider.org/#presale">Presale</a></li>
+              <li><a href="https://chainraider.org/#tokenomics">Tokenomics</a></li>
+              <li><a href="https://chainraider.org/#audit">Audit</a></li>
+            </ul>
             <div class="wallet-wrap">
               <span className=" wallet0">Wallet: </span>
               <span className="wallet text-truncate">{account}</span>

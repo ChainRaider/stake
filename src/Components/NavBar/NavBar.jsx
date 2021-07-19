@@ -116,7 +116,7 @@ function NavBar() {
     return (
         <>
            <div className="Navbar_Main">
-            <img src="assets/img/chainraidersmallnew.png" />
+            <a href="https://chainraider.org/"><img src="assets/img/chainraidersmallnew.png" /></a>
             <ul id="main-menu">
               <li><a href="https://chainraider.org/#about">Features</a></li>
               <li><a href="https://chainraider.org/stake">Stake $CR</a></li>

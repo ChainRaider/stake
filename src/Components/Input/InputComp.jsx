@@ -149,7 +149,8 @@ function InputComp() {
       let contract = new web3.eth.Contract(contractabi, contractAddress);
       let accountDetails = await contract.methods.dividendsOf(accountAd).call();
       console.log("stakeValue", accountDetails);
-      setRewards(accountDetails);
+      var weiAmount2 = web3.utils.fromWei(accountDetails);
+      setRewards(weiAmount2);
 
       accountDetails = await contract.methods.totalDistributions().call();
       console.log("totalDistributions", accountDetails);
@@ -171,7 +172,7 @@ function InputComp() {
       const web3 = window.web3;
       let contract = new web3.eth.Contract(contractabi, contractAddress);
       let accountDetails = await contract.methods.stake(
-        numberofTokens
+        web3.utils.toWei(numberofTokens)
       )
         .send({
           from: account
@@ -187,7 +188,7 @@ function InputComp() {
       const web3 = window.web3;
       let contract = new web3.eth.Contract(contractabi, contractAddress);
       let accountDetails = await contract.methods.unstake(
-        numberofTokens
+        web3.utils.toWei(numberofTokens)
       )
         .send({
           from: account
@@ -202,7 +203,7 @@ function InputComp() {
       const web3 = window.web3;
       let contract = new web3.eth.Contract(contractabi, contractAddress);
       let accountDetails = await contract.methods.withdraw(
-        numberofTokens
+        web3.utils.toWei(numberofTokens)
       )
         .send({
           from: account
